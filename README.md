@@ -1,9 +1,32 @@
 # Navigation-Menu-College
 
-Navigation menu for "My College".
+# Responsive Navigation Bar
 
-1. Create Home, About, Courses and Contact links.
-2. Display navigation items horizontally using CSS Flexbox.
-3. Change the background color of a menu item on hover.
-4. Add a button to hide or show the navigation menu using JavaScript DOM.
-5. Display navigation items vertically on mobile screens. 
+A simple and responsive navigation bar built with HTML, CSS, and JavaScript.
+
+## Features
+
+- Navigation links: **Home**, **About**, **Courses**, and **Contact**
+- Horizontal menu layout using **CSS Flexbox**
+- Hover effect that changes the background color of a menu item
+- Toggle button to **show or hide** the menu using **JavaScript DOM manipulation**
+- Responsive design: menu items are displayed **vertically on mobile screens** using media queries
+
+## Technologies Used
+
+- HTML5
+- CSS3 (Flexbox, Media Queries)
+- JavaScript (DOM)
+
+## How to Run
+
+1. Clone the repository:
+```bash
+   git clone https://github.com/kumaranupsingh75-svg/navigation-menu-college.git
+```
+2. Open the project folder.
+3. Open `index.html` in your browser.
+
+## Author
+
+Anup Kumar Singh ([@kumaranupsingh75-svg](https://github.com/kumaranupsingh75-svg))
