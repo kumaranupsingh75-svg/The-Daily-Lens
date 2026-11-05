@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact The Daily Lens editorial team.">
+  <title>Contact | The Daily Lens</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body data-page="contact">
+  <div class="announcement">
+    Independent stories. A clearer view of the world.
+    <a href="about.html">Our mission <span>→</span></a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">DL</span>
+        <span>The Daily <b>Lens</b><small>Stories worth your time</small></span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="categories.html" data-nav="categories">Categories</a>
+        <a href="trending.html" data-nav="trending">Trending</a>
+        <a href="write.html" data-nav="write">Write a post</a>
+        <a href="about.html" data-nav="about">About</a>
+        <a href="contact.html" data-nav="contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button theme-toggle" aria-label="Switch to dark mode">☾</button>
+        <a class="subscribe-link" href="index.html#newsletter">Subscribe <span>↗</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero wrap">
+      <p class="eyebrow">WE'RE LISTENING</p>
+      <h1>Say <em>hello.</em></h1>
+      <p>Have a question, a correction, or an idea for a story? We'd love to hear from you.</p>
+    </section>
+
+    <section class="section wrap contact-layout">
+      <div class="contact-details">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Good conversations<br>start here.</h2>
+        <p>Send a note to our student editorial team. We usually reply within two working days.</p>
+
+        <div class="contact-method">
+          <span>✉</span>
+          <div>
+            <small>GENERAL ENQUIRIES</small>
+            <b>hello@thedailylens.example</b>
+          </div>
+        </div>
+
+        <div class="contact-method">
+          <span>✳</span>
+          <div>
+            <small>EDITORIAL IDEAS</small>
+            <b>stories@thedailylens.example</b>
+          </div>
+        </div>
+
+        <div class="contact-disclaimer">
+          This is a front-end demonstration. The form shows a confirmation in your browser but does not send email.
+        </div>
+      </div>
+
+      <form class="content-form contact-form" id="contact-form">
+        <h2>Send us a message</h2>
+
+        <label for="contact-name">Your name <span>*</span></label>
+        <input id="contact-name" name="name" type="text" placeholder="How should we address you?" required>
+
+        <label for="contact-email">Email address <span>*</span></label>
+        <input id="contact-email" name="email" type="email" placeholder="you@example.com" required>
+
+        <label for="contact-topic">What is this about? <span>*</span></label>
+        <select id="contact-topic" name="topic" required>
+          <option value="">Choose a topic</option>
+          <option>General question</option>
+          <option>Story idea</option>
+          <option>Correction</option>
+          <option>Partnership</option>
+          <option>Other</option>
+        </select>
+
+        <label for="contact-message">Your message <span>*</span></label>
+        <textarea id="contact-message" name="message" rows="6" placeholder="Tell us a little more..." required></textarea>
+
+        <button class="button button-dark" type="submit">Send message <span>→</span></button>
+        <p class="form-message" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-main">
+      <div>
+        <a class="brand footer-brand" href="index.html">
+          <span class="brand-mark">DL</span>
+          <span>The Daily <b>Lens</b><small>Stories worth your time</small></span>
+        </a>
+        <p>See the world with a little more clarity.</p>
+      </div>
+
+      <div class="footer-links">
+        <div>
+          <b>Explore</b>
+          <a href="categories.html">Categories</a>
+          <a href="trending.html">Trending</a>
+          <a href="write.html">Write a post</a>
+        </div>
+        <div>
+          <b>About us</b>
+          <a href="about.html">Our mission</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap footer-bottom">
+      <span>© 2026 The Daily Lens. All rights reserved.</span>
+      <span>Independent by nature. Curious by design.</span>
+      <a href="#top" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+</body>
+</html>

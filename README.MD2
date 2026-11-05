@@ -1,0 +1,39 @@
+# The Daily Lens
+
+A responsive News / Blog Portal student project made with plain HTML, CSS, and JavaScript. Class serial number 11 maps to Practical 12.
+
+## Run locally
+
+1. Open this folder in VS Code.
+2. Open `index.html` in a browser, or use the Live Server extension for a smoother development experience.
+3. Use the navigation to visit all seven pages: Home, Categories, Trending, Article, Write a Post, About, and Contact.
+
+No build tools or package installation are required. Internet is needed for the Google Fonts and Unsplash demo images. If an image URL is unavailable, replace it with a local image.
+
+## Features
+
+- Responsive desktop, tablet, and mobile layout
+- Story category tabs and instant search (press `/` to focus search, `Esc` to clear)
+- Like and bookmark controls stored in browser local storage
+- Reader posts saved in local storage and shown in story listings
+- Trending list sorted by likes
+- Light / dark mode saved in local storage
+- Share action using the Web Share API where available, clipboard otherwise
+- Reading-time estimates, newsletter sign-up demo, and contact form validation
+- Mobile navigation and back-to-top button
+
+## Storage and demo limitations
+
+This is a static front-end project. Posts, likes, bookmarks, theme preference, and newsletter demo sign-ups are stored only in the current browser. The contact form shows a confirmation but does not send email. There is no server, user account, or cross-device publishing.
+
+## Project files
+
+- `index.html` — Home page
+- `categories.html` — Category directory and filtered stories
+- `trending.html` — Most-liked stories
+- `article.html` — Article detail and share controls
+- `write.html` — Reader post form
+- `about.html` — Project mission and team
+- `contact.html` — Contact form
+- `styles.css` — Shared responsive styling
+- `app.js` — Story content and interactions
