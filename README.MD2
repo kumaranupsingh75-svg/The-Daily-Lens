@@ -37,3 +37,5 @@ This is a static front-end project. Posts, likes, bookmarks, theme preference, a
 - `contact.html` — Contact form
 - `styles.css` — Shared responsive styling
 - `app.js` — Story content and interactions
+
+<video src="demo.mp4" controls width="100%"></video>
