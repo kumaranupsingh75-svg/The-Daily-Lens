@@ -38,6 +38,10 @@ This is a static front-end project. Posts, likes, bookmarks, theme preference, a
 - `styles.css` — Shared responsive styling
 - `app.js` — Story content and interactions
 
-<video src="demo.mp4" controls width="100%"></video>
 
+
+<video src="demo.mp4" controls width="100%"></video>
 [▶ Watch demo video](https://github.com/kumaranupsingh75-svg/The-Daily-Lens/raw/refs/heads/main/demo.mp4)
+
+
+![Homepage](./homePage.png)
